@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    padding: 0.5em;
+    background-color: rgb(41, 41, 41);
+    /* border: 1px red solid; */
+    border-radius: 0.5rem;
+    width: 30em;
+    justify-content: center;
+    color:#636768;
+    list-style:none;
+    flex-direction: row;
+    /* gap: 1em; */
+}
+
+li{
+    list-style: none;
+}
+.typingTestConfig ul{
+    border-right: 
+    3px #636768 solid;
+
+}   
+
+ul{
+    display: flex;
+    padding-inline: 1em;
+    gap: 1em;
+
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+li:hover {
+    color: rgb(250, 206, 8);
+    cursor: pointer;
+}

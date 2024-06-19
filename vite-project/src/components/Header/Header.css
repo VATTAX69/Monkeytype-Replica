@@ -11,7 +11,7 @@
     left: 0;
     padding: 0;
     /* padding: 0 3.5em; */
-    position: fixed;
+    position: absolute;
     width: 100vw;
     height: 6em;
     display: flex;
@@ -45,9 +45,6 @@
     line-height: 100%;
     font-size: 1.5rem;
     font-weight: 375;
-    /* display: flex; */
-  
-  
   }
   
   .name p{
